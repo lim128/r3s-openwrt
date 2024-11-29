@@ -15,4 +15,4 @@
 
 # Add a feed source
 echo "src-git mihomo https://github.com/morytyann/OpenWrt-mihomo.git;main" >> "feeds.conf.default"
-wget -O target/linux/ramips/patches-4.14/102-mt7621-fix-cpu-clk-add-clkdev.patch wget -O target/linux/ramips/patches-4.14/102-mt7621-fix-cpu-clk-add-clkdev.patch https://ghproxy.net/https://raw.githubusercontent.com/qqww4540/rule/main/102-mt7621-fix-cpu-clk-add-clkdev.patch
+wget -O target/linux/ramips/patches-4.14/102-mt7621-fix-cpu-clk-add-clkdev.patch https://ghproxy.net/https://raw.githubusercontent.com/qqww4540/rule/main/102-mt7621-fix-cpu-clk-add-clkdev.patch
