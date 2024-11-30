@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: MT7621 Builder
+name: RM2100 Builder
 
 on:
   repository_dispatch:
