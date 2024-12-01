@@ -18,3 +18,4 @@
 
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
+wget -O target/linux/ramips/patches-5.4/102-mt7621-fix-cpu-clk-add-clkdev.patch https://ghproxy.net/https://raw.githubusercontent.com/qqww4540/rule/main/102-mt7621-fix-cpu-clk-add-clkdev.patch
