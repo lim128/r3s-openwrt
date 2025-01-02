@@ -24,8 +24,8 @@ sed -i 's/ImmortalWrt/NanoPi/g' package/base-files/files/bin/config_generate
 rm -rf feeds/packages/lang/golang
 rm -rf feeds/packages/net/mosdns
 rm -rf feeds/packages/net/v2ray-geodata
-git clone https://github.com/sbwml/packages_lang_golang -b 23.x feeds/packages/lang/golang
-git clone -b v5 --single-branch https://github.com/sbwml/luci-app-mosdns package/mosdns
-git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
-git clone https://github.com/sirpdboy/luci-app-poweroffdevice package/luci-app-poweroffdevice
+git clone -b 23.x --single-branch https://github.com/sbwml/packages_lang_golang.git feeds/packages/lang/golang
+git clone -b v5 --single-branch https://github.com/sbwml/luci-app-mosdns.git package/mosdns
+git clone -b master --single-branch https://github.com/sbwml/v2ray-geodata.git package/v2ray-geodata
+git clone -b main --single-branch https://github.com/sirpdboy/luci-app-poweroffdevice.git package/luci-app-poweroffdevice
 git clone -b main --single-branch https://github.com/morytyann/OpenWrt-mihomo.git package/mihomo
