@@ -14,7 +14,3 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-git clone -b master --single-branch https://github.com/kenzok8/openwrt-packages.git package/kenzo
-git clone -b master --single-branch https://github.com/kenzok8/small.git package/small
-git clone -b main --single-branch https://github.com/sirpdboy/luci-app-poweroffdevice.git package/luci-app-poweroffdevice
-git clone -b master --single-branch https://github.com/muink/openwrt-stuntman.git package/stuntman
