@@ -19,13 +19,12 @@
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
 sed -i 's/192.168.1.1/192.168.31.1/g' package/base-files/files/bin/config_generate
-rm -rf feeds/luci/applications/luci-app-passwall
+rm -rf feeds/packages/net/{brook,chinadns-ng,dns2socks,dns2tcp,hysteria,ipt2socks,microsocks,mihomo,mosdns,naiveproxy,pdnsd-alt,redsocks2,shadow-tls,simple-obfs,sing-box,ssocks,tcping,trojan-go,trojan-plus,trojan,tuic-client,v2dat,v2ray-core,v2ray-geodata,v2ray-geoview,v2ray-plugin,v2raya,xray-core,xray-plugin}
+git clone -b master --single-branch https://github.com/kenzok8/small.git package/small
+rm -rf package/small/{luci-app-homeproxy,luci-app-mosdns,mosdns}
 rm -rf feeds/packages/lang/golang
-rm -rf feeds/packages/net/mosdns
-rm -rf feeds/packages/net/v2ray-geodata
 git clone -b 23.x --single-branch https://github.com/sbwml/packages_lang_golang.git feeds/packages/lang/golang
 git clone -b v5 --single-branch https://github.com/sbwml/luci-app-mosdns.git package/mosdns
 git clone -b master --single-branch https://github.com/sbwml/v2ray-geodata.git package/v2ray-geodata
+git clone -b master --single-branch https://github.com/muink/openwrt-stuntman.git package/stuntman
 git clone -b main --single-branch https://github.com/sirpdboy/luci-app-poweroffdevice.git package/luci-app-poweroffdevice
-git clone -b main --single-branch https://github.com/morytyann/OpenWrt-mihomo.git package/mihomo
-git clone -b main --single-branch https://github.com/xiaorouji/openwrt-passwall.git package/passwall
