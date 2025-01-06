@@ -21,7 +21,7 @@
 sed -i 's/192.168.1.1/192.168.31.1/g' package/base-files/files/bin/config_generate
 rm -rf feeds/packages/net/{brook,chinadns-ng,dns2socks,dns2tcp,hysteria,ipt2socks,microsocks,mihomo,mosdns,naiveproxy,pdnsd-alt,redsocks2,shadow-tls,simple-obfs,sing-box,ssocks,tcping,trojan-go,trojan-plus,trojan,tuic-client,v2dat,v2ray-core,v2ray-geodata,v2ray-geoview,v2ray-plugin,v2raya,xray-core,xray-plugin}
 git clone -b master --single-branch https://github.com/kenzok8/small.git package/small
-rm -rf package/small/{luci-app-homeproxy,luci-app-mosdns,mosdns}
+rm -rf package/small/{luci-app-homeproxy,luci-app-mosdns,mosdns,v2ray-geodata}
 rm -rf feeds/packages/lang/golang
 git clone -b 23.x --single-branch https://github.com/sbwml/packages_lang_golang.git feeds/packages/lang/golang
 git clone -b v5 --single-branch https://github.com/sbwml/luci-app-mosdns.git package/mosdns
