@@ -28,4 +28,4 @@ git clone -b master --single-branch https://github.com/sbwml/v2ray-geodata.git p
 git clone -b master --single-branch https://github.com/xiaoxiao29/luci-app-adguardhome.git package/adguardhome
 git clone -b main --single-branch https://github.com/sirpdboy/luci-app-poweroffdevice.git package/luci-app-poweroffdevice
 git clone -b main --single-branch https://github.com/morytyann/OpenWrt-mihomo.git package/mihomo
-git clone -b main --single-branch https://github.com/xiaorouji/openwrt-passwall package/passwall
+git clone -b main --single-branch https://github.com/xiaorouji/openwrt-passwall.git package/passwall
