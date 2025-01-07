@@ -27,5 +27,5 @@ git clone -b v5 --single-branch https://github.com/sbwml/luci-app-mosdns.git pac
 git clone -b master --single-branch https://github.com/sbwml/v2ray-geodata.git package/v2ray-geodata
 git clone -b master --single-branch https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
 git clone -b main --single-branch https://github.com/sirpdboy/luci-app-poweroffdevice.git package/luci-app-poweroffdevice
-git clone -b main --single-branch https://github.com/morytyann/OpenWrt-mihomo.git package/mihomo
+#git clone -b main --single-branch https://github.com/morytyann/OpenWrt-mihomo.git package/mihomo
 git clone -b main --single-branch https://github.com/xiaorouji/openwrt-passwall.git package/passwall
