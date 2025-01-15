@@ -19,7 +19,7 @@
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
 sed -i 's/192.168.1.1/192.168.31.1/g' package/base-files/files/bin/config_generate
-rm -rf feeds/luci/applications/luci-app-passwall
+rm -rf feeds/luci/applications/{luci-app-passwall,luci-app-homeproxy}
 rm -rf feeds/packages/lang/golang
 rm -rf feeds/packages/net/{mosdns,v2ray-geodata}
 git clone -b 23.x --single-branch https://github.com/sbwml/packages_lang_golang.git feeds/packages/lang/golang
